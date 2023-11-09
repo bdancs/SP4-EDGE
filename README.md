@@ -29,5 +29,11 @@
 ## Demonstração do funcionamento
 [Link da demonstração do funcionamento do sistema de alarme de forma simplificada(sem o ESP32)](https://www.tinkercad.com/things/9rcP97f9xNt)
 
+### Código usado no ESP-32 para a demonstração
+[Código do ESP-32](codigoFuncionamento.ino)
+
+### Código da interface, onde se encontra o gráfico
+[Código de interface](demonstracao.html)
+
 ### Vídeo sobre IoT :
 [YOUTUBE](https://youtu.be/dfqplwQoEUk)

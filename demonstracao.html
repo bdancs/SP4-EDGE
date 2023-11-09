@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gráfico do Sensor de Gás</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        canvas {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Gráfico do Sensor de Gás</h1>
+
+    <canvas id="gasChart"></canvas>
+
+    <script>
+        const gasData = {
+            labels: [],
+            datasets: [{
+                label: 'Valor do Sensor de Gás',
+                borderColor: 'rgb(75, 192, 192)',
+                borderWidth: 2,
+                fill: false,
+                data: [],
+            }],
+        };
+
+        const ctx = document.getElementById('gasChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'line',
+            data: gasData,
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        suggestedMax: 300,
+                    },
+                },
+            },
+        });
+
+        function updateGasChart() {
+            setInterval(() => {
+                const randomValue = Math.floor(Math.random() * 200) + 100;
+                gasData.labels.push('');
+                gasData.datasets[0].data.push(randomValue);
+
+                if (gasData.labels.length > 10) {
+                    gasData.labels.shift();
+                    gasData.datasets[0].data.shift();
+                }
+
+                chart.update();
+            }, 1000);
+        }
+
+        updateGasChart();
+    </script>
+</body>
+</html>
