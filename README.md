@@ -38,5 +38,8 @@
 ### Vídeo sobre IoT :
 [YOUTUBE](https://youtu.be/dfqplwQoEUk)
 
-# OBSERVAÇÃO:
-<div align="justify"> O código presente utiliza de números randômicos porque durante a demonstração do projeto em sala(hands-on), foi descoberto que o sensor de gás não estava funcionando de forma corretamente; mas a parte do código que utiliza do sensor está comentada, caso necessário. </div>
+# OBSERVAÇÃO :
+
+- Não é uma observação sobre o projeto em sua escala total, mas sim sobre o protótipo utilizado na avaliação.
+
+<div align="justify"> O código presente utiliza de números randômicos porque durante a demonstração do projeto em sala(hands-on), foi descoberto que o sensor de gás não estava funcionando de forma corretamente; mas a parte do código que utiliza do sensor está comentada, caso necessário. Além disso, para o funcionamento de forma correta no ESP-32, foi preciso remover a led vermelha, já que estava ocorrendo um erro no reconhecimento dos OUTPUTS. </div>
