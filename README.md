@@ -37,3 +37,6 @@
 
 ### Vídeo sobre IoT :
 [YOUTUBE](https://youtu.be/dfqplwQoEUk)
+
+# OBSERVAÇÃO:
+<div align="justify"> O código presente utiliza de números randômicos porque durante a demonstração do projeto em sala(hands-on), foi descoberto que o sensor de gás não estava funcionando de forma corretamente; mas a parte do código que utiliza do sensor está comentada, caso necessário. </div>
