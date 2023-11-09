@@ -25,8 +25,9 @@
 7. Após a avaliação dos especialistas, o líder da unidade irá decidir se as operações voltarão no dia ou irão ser encerradas até que seja seguro.
 
 ![Foto da demonstração de como o sistema funciona](Demonstra%C3%A7%C3%A3o-1.jpg)
-## Demonstração do funcionamento
 
+## Demonstração do funcionamento
 [Link da demonstração do funcionamento do sistema de alarme de forma simplificada(sem o ESP32)](https://www.tinkercad.com/things/9rcP97f9xNt)
-## Vídeo sobre IoT :
+
+### Vídeo sobre IoT :
 [YOUTUBE](https://youtu.be/dfqplwQoEUk)
